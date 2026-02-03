@@ -1,3 +1,12 @@
+pydf (16)
+ * migrate to argparse
+ * fix bind mounts identification
+ * require python 3
+ * split debian packaging away
+ * many minor tweaks
+
+ -- Tue,  3 Feb 2026 15:30:29 +0100
+
 pydf (15)
   * split debian/changelog (will be used for debian-only changes) and the main changelog (this file)
   * add -S, --scale-bars option to scale bars to correspond to the device size
@@ -5,6 +14,8 @@ pydf (15)
   * add several special (i.e. not shown by default) filesystems
   * add support for COLUMNS and NO_COLOR environmental variables
   * this is the last version supporting Python 2
+
+ -- Tue, 16 Dec 2025 10:00:05 +0100
 
 pydf (14) unstable; urgency=medium
 
