@@ -656,7 +656,7 @@ def display_table(table, terminal_width, scale_bars):
 # the fun begins here
 
 parser = ArgumentParser(add_help=False)
-parser.version = f'{parser.prog} version ' + version()
+parser.version = parser.prog + ' version ' + version()
 
 parser.add_argument("-?", "--help", action="help", help="show this help message")
 parser.add_argument("-v", "--version", action="version", help="show version")
